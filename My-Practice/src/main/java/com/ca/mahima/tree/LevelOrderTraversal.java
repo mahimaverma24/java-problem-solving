@@ -3,6 +3,10 @@ package com.ca.mahima.tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * Time Complexity: O(n) where n is number of nodes in the binary tree
+ * Space Complexity: O(n) where n is number of nodes in the binary tree
+ * **/
 public class LevelOrderTraversal {
 
 	static void printLevelOrder(Node root) {
@@ -38,7 +42,7 @@ public class LevelOrderTraversal {
 		tree_level.root.left.right = new Node(8);
 		tree_level.root.right.left = new Node(12);
 
-		System.out.println("Level order traversa of binary tree is - ");
+		System.out.println("Level order traverse of binary tree is - ");
 		printLevelOrder(tree_level.root);
 	}
 
