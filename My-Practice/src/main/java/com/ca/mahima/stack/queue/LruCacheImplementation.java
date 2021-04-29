@@ -1,4 +1,4 @@
-package com.ca.mahima.stack;
+package com.ca.mahima.stack.queue;
 import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
