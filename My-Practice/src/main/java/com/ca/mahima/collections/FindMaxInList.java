@@ -1,9 +1,6 @@
 package com.ca.mahima.collections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.OptionalInt;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -21,6 +18,12 @@ public class FindMaxInList extends Employee {
 		int k = 10;
 		OptionalInt maxElem = list.stream().mapToInt(x -> x).max();
 		System.out.println(maxElem);
+
+		//sort
+		List<Integer> sortedList =  list.stream().sorted().collect(Collectors.toList());
+		System.out.println(sortedList);
+
+		System.out.print(list.stream().sorted().findFirst());
 
 		// find max than k
 		List<Integer> filteredList = list.stream().filter(a -> a > k).collect(Collectors.toList());

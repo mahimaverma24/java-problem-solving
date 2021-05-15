@@ -14,7 +14,7 @@ public class StockBySellOnlyOneTxn {
             if(price[i] > maxPrice){
                 maxPrice = price[i];
             }else {
-                int diff = maxPrice - price[i ];
+                int diff = maxPrice - price[i];
                 if (diff > maxDiff) {
                     maxDiff = diff;
                 }
