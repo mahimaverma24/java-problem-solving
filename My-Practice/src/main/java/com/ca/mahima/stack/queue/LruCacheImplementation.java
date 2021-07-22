@@ -2,6 +2,8 @@ package com.ca.mahima.stack.queue;
 import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * /* We can use Java inbuilt Deque as a double ended queue to store the cache
@@ -17,7 +19,6 @@ public class LruCacheImplementation {
 	private final int CACHE_SIZE;
  
 	public static void main(String[] args) {
-
 		LruCacheImplementation cache = new LruCacheImplementation(4);
 		cache.refer(1);
 		cache.refer(2);
@@ -54,5 +55,7 @@ public class LruCacheImplementation {
 	private void display() {
 		doublyQueue.forEach(System.out::println);
 	}
+
+
 
 }

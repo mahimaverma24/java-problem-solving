@@ -54,7 +54,7 @@ public class BalancedBrackets {
 
 	// Driver code
 	public static void main(String[] args) {
-		String expr = "([{}])";
+		String expr = "{[]})";
 
 		// Function call
 		if (areBracketsBalanced(expr))

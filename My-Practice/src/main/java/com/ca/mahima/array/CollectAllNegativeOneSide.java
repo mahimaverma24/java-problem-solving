@@ -1,6 +1,6 @@
 package com.ca.mahima.array;
 
-public class CollectallNegativeOneSide {
+public class CollectAllNegativeOneSide {
 	public static void main(String[] args) {
 		int[] arr = { -12, 11, -13, -5, 6, -7, 5, -3, -6 };
 		int n = arr.length ;

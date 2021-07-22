@@ -43,6 +43,8 @@ public class FindMaxInList extends Employee {
 		Function<String, Integer> nameMappingFunction = String::length;
 		List<Integer> nameLength = names.stream().map(nameMappingFunction).collect(Collectors.toList());
 		System.out.println(nameLength);
+
+
 	}
 
 }

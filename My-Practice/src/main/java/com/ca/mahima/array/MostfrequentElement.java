@@ -2,6 +2,7 @@ package com.ca.mahima.array;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * print most frequent element in array if two elements have same occurrence say
@@ -36,6 +37,12 @@ public class MostfrequentElement {
 		}
 
 		System.out.println(key);
+char res = Character.MAX_HIGH_SURROGATE;
+		TreeMap<Character, Integer> treeMap = new TreeMap<>();
+		treeMap.put('v', 2);
+		treeMap.put('a',1);
+		treeMap.put('r', 5);
 
+		treeMap.get('a');
 	}
 }

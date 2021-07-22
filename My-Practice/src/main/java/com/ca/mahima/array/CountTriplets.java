@@ -3,9 +3,9 @@ package com.ca.mahima.array;
 import java.util.Arrays;
 
 public class CountTriplets {
-	public static void main(String[] args) {
-		int[] arr = { 14, 3, 6, 8, 11, 16 };
-		int n = arr.length;
+    public static void main(String[] args) {
+        int[] arr = {14, 3 ,6 ,8 ,11, 16};
+        int n = arr.length;
 		var sum = 0;
 		var count = 0;
 		Arrays.sort(arr);
@@ -28,7 +28,8 @@ public class CountTriplets {
 			}
 
 		}
-		System.out.println(count);
-	
-	}
+
+        System.out.println(count);
+
+    }
 }
